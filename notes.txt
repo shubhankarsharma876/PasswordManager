@@ -1,0 +1,13 @@
+1.make sure to make client for react and server for nodejs folder
+2. Install the mysql, express, cors in the begining
+->cors is useful and necessry to establish the connectivity with the database
+4.we will use axios to parse the data to the backend from client in the form of body of title and password.
+and if the error comes of CORS then make sure to import it. 
+
+
+
+---!---
+
+The database: passwordmanager
+table: passwords
+colums: id, password, title
