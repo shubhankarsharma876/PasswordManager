@@ -3,7 +3,9 @@
 ->cors is useful and necessry to establish the connectivity with the database
 4.we will use axios to parse the data to the backend from client in the form of body of title and password.
 and if the error comes of CORS then make sure to import it. 
+5. if the connection not responding with the mysql due to authentication then go to workbench and in the same schema and this line and rerun
 
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 
 
 ---!---
@@ -11,3 +13,5 @@ and if the error comes of CORS then make sure to import it.
 The database: passwordmanager
 table: passwords
 colums: id, password, title
+
+
